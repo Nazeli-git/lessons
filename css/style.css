@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+
+div{
+  font-family: "Playwrite DE Grund", cursive;
+  letter-spacing: 2px; 
+}
+
+h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  line-height: 45px;
+  color:rgb(73, 161, 190);
+}
+
+p{
+  color:rgb(84, 86, 99);
+}
+
+p > span{
+  font-size: 20px;
+  color:black
+}
+
+.text1{
+  background-color: rgba(194, 214, 225, 0.251);
+
+}
+
+img{
+  size: cover;
+  width:100%;
+  height: 600px;
+  border-radius: 2%;
+}
+
+.myimg{
+    width: 100%;
+    height: 600px;
+    background: url(https://cdn.britannica.com/32/93932-050-B213E0FB/ocean-water-beach-The-Bahamas-Grand-Bahama.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text2{
+  background-color:rgba(190, 200, 215, 0.511)
+}
+
+a{
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-right: 23px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:cadetblue;
+}
